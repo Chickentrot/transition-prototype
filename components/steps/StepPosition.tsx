@@ -51,12 +51,13 @@ export function StepPosition({
           />
           <CurrencyField
             label="Credit cards / loans outstanding"
+            hint="Optional — skip it if you prefer. It's asked only so the arithmetic is complete, never to advise you about debt."
             value={position.creditBalance}
             onChange={(p) => set({ creditBalance: p })}
           />
           <CurrencyField
             label="Repayment you've already decided to make"
-            hint="Only what you have decided yourself. This tool doesn't advise on repaying debts."
+            hint="Only what you have decided yourself. Leave at zero if you haven't decided anything — this tool doesn't advise on repaying debts."
             value={position.plannedRepayment}
             onChange={(p) => set({ plannedRepayment: p })}
           />

@@ -1,7 +1,7 @@
 "use client";
 
 import type { TransitionDetails } from "@/lib/types";
-import { Card, CurrencyField, DateField, PrimaryButton, StepHeading, YesNo } from "@/components/ui";
+import { Card, CurrencyField, DateField, InfoNote, PrimaryButton, StepHeading, YesNo } from "@/components/ui";
 
 const OTHER_TRANSITIONS = ["Inheritance", "Retirement", "Business exit", "Divorce or separation", "Bereavement"];
 
@@ -54,8 +54,8 @@ export function StepWhatChanged({
             onChange={(v) => onChange({ ...transition, payoutDate: v })}
           />
           <CurrencyField
-            label="Net redundancy amount actually available"
-            hint="The amount that will really land in your account, after any tax."
+            label="Redundancy amount, expected or confirmed"
+            hint="What will actually land in your account, after any tax. An estimate from your consultation is fine. The first £30,000 of redundancy pay is usually tax-free (gov.uk)."
             value={transition.netPayout}
             onChange={(p) => onChange({ ...transition, netPayout: p })}
           />
@@ -73,6 +73,13 @@ export function StepWhatChanged({
           />
         </div>
       </Card>
+
+      <div className="rise" style={{ animationDelay: "150ms" }}>
+        <InfoNote>
+          <strong>Everything you enter stays on this device.</strong> No account, no sign-up, nothing
+          sent anywhere. If an employer gave you this tool, they can never see your figures.
+        </InfoNote>
+      </div>
 
       <div className="rise space-y-4" style={{ animationDelay: "180ms" }}>
         <p className="max-w-prose text-[13px] leading-relaxed text-muted">
