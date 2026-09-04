@@ -15,10 +15,19 @@ Actions taken:
   Service (gov.uk find-pension-contact-details), local council finder (gov.uk
   find-local-council), and Age UK (over-60s support).
 
+Follow-up (same day): asked whether it would have been useful if his employer had
+given him this at the point of redundancy. His employer provided information only,
+no tool or structured support. His answer: yes, a platform like this handed over by
+the employer would be handy.
+
 Interpretation (to test, not to assume):
 - Doubt about standalone consumer use is consistent with the B2B2C thesis: the
   employer hands this to the employee as part of the redundancy package, rather than
-  a stressed consumer finding it themselves.
+  a stressed consumer finding it themselves. The follow-up strengthens this: the
+  same user who doubted self-serve said yes to employer-provided. The gap he named
+  (information given, no tool) is exactly the wedge: employers already discharge
+  this duty with leaflets and links, and a structured tool is a visible upgrade at
+  near-zero marginal cost per redundancy.
 - The requests were all for *routing to existing help*, not for more modelling.
   The boundary screen may be the most valued screen for this user type.
 
