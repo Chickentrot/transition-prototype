@@ -110,7 +110,7 @@ export function StepImpact({
                 changed={impact.usesReserve}
               />
               <BeforeAfter
-                label="Unallocated money"
+                label="Money not yet decided"
                 before={gbp(impact.unallocatedBefore)}
                 after={gbp(impact.unallocatedAfter)}
                 changed={impact.unallocatedBefore !== impact.unallocatedAfter}
@@ -139,7 +139,7 @@ export function StepImpact({
               ) : null}
               {impact.exceedsProtected ? (
                 <InfoNote tone="amber">
-                  This is more than your unallocated money and your protected reserve combined. It would
+                  This is more than your not-yet-decided money and your protected reserve combined. It would
                   use the whole reserve and would also need to come from the money you&apos;ve set aside
                   for other plans{impact.insufficientCash ? ", and it exceeds the cash available" : ""}.
                 </InfoNote>

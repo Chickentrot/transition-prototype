@@ -177,7 +177,7 @@ export function StepProtect({
             <MoneyRow key={a.id} label={a.label} value={-a.amount} sub />
           ))}
           <Rule />
-          <MoneyRow label="Remaining unallocated" value={summary.unallocated} strong negative={summary.overAllocated} />
+          <MoneyRow label="Not yet decided" value={summary.unallocated} strong negative={summary.overAllocated} />
         </div>
         {summary.overAllocated ? (
           <div className="mt-4">
