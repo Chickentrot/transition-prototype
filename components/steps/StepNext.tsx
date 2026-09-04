@@ -68,6 +68,11 @@ const ROUTES: { name: string; blurb: string; href: string }[] = [
     href: "https://www.gov.uk/find-local-council",
   },
   {
+    name: "Your credit score",
+    blurb: "MoneyHelper guidance on checking and protecting your credit score when income changes.",
+    href: "https://www.moneyhelper.org.uk/en/everyday-money/credit-and-purchases",
+  },
+  {
     name: "Age UK",
     blurb: "Advice and priority support if you're over 60: benefits checks, pensions guidance and local services.",
     href: "https://www.ageuk.org.uk/",
