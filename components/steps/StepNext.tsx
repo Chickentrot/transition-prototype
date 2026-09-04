@@ -52,6 +52,26 @@ const ROUTES: { name: string; blurb: string; href: string }[] = [
     blurb: "Outplacement or employee-assistance support that may be part of your package.",
     href: "#",
   },
+  {
+    name: "HMRC",
+    blurb: "Tax on redundancy pay, including payments above £30,000, and tax-code changes.",
+    href: "https://www.gov.uk/contact-hmrc",
+  },
+  {
+    name: "Find a lost pension",
+    blurb: "The government's Pension Tracing Service: track down pensions from old jobs.",
+    href: "https://www.gov.uk/find-pension-contact-details",
+  },
+  {
+    name: "Your local council",
+    blurb: "Council tax reduction, housing help and the Household Support Fund in your area.",
+    href: "https://www.gov.uk/find-local-council",
+  },
+  {
+    name: "Age UK",
+    blurb: "Advice and priority support if you're over 60: benefits checks, pensions guidance and local services.",
+    href: "https://www.ageuk.org.uk/",
+  },
 ];
 
 export function StepNext({
