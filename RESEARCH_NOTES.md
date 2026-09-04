@@ -69,6 +69,46 @@ What this says:
   amounts often go to pension — a tax question the tool must route out, but stating
   the £30k fact itself is general information, not advice.
 
+## 2026-09-04 — Live walk-through, screen-by-screen (same user)
+
+Answers as reported:
+1. Numbers known without checking: essential monthly spending — real knowledge, not
+   a guess.
+2. "Remaining unallocated" in his own words: going out, hobbies, gym, leisure,
+   gifts — i.e. he read it as discretionary spending money, not "not yet decided".
+3. Pots he would create himself: car repairs/maintenance, investments.
+4. Real hypothetical tried: new car at £4–5k. "Doesn't change much, but makes me
+   more confident seeing the numbers."
+5. 24-hour button: not for him — he's using it for knowledge; thought a younger
+   person might press it.
+6. First card he'd click on screen 5: mortgage/financial-product recommendations —
+   wants to talk to the bank about an interest-only mortgage; MoneyHelper maybe.
+   Raised credit score anxiety: you'd want financial help to make sure your credit
+   score isn't knocked.
+7. Would he show the plan to his sister: yes — and she may be able to help the
+   project directly.
+
+What this says:
+- **The value prop in the user's own words: confidence.** The numbers didn't change
+  his decision; they made him more confident in it. The product de-risks decisions
+  emotionally rather than redirecting them. "Confidence, not advice" is a cleaner
+  one-line promise than anything drafted so far.
+- **The boundary screen is a front door, not a footer.** His first click was the
+  regulated-escalation item (mortgage). The escalation half of the promise keeps
+  winning with this segment.
+- **Credit score is an unvoiced anxiety** the tool doesn't touch — candidate
+  signpost (MoneyHelper credit-score guidance / statutory credit reports).
+- **"Unallocated" drifts in comprehension** toward "fun money". Candidate rename:
+  "Not yet decided". His reading is workable but looser than intended.
+- **He knows his essential spending cold.** May be generational; test with
+  mid-career users before concluding input friction is low.
+- **"Investments" as a user-created pot** is fine (user-defined, no recommendation),
+  and the desire for it confirms users will bring regulated topics into the tool
+  unprompted — the language firewall has to hold everywhere.
+- **The sister is the next interview.** She is the trusted-helper persona in the
+  flesh — manages finances for family members — and possibly an advisor to the
+  project. Free, warm, and a different persona from the transition-holder.
+
 Open questions for next conversations (3–5 people going through redundancy):
 - Would you have wanted this the day the letter arrived?
 - What did you expect it to do that it didn't?
